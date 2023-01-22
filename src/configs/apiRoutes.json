@@ -1,0 +1,5 @@
+{
+  "unsplash" : {
+    "getPhotos" : "https://api.unsplash.com/photos/?page={{pageNo}}&&client_id={{unsplashKey}}"
+  }
+}

@@ -1,0 +1,48 @@
+.container {
+    padding-top: 40px 20px 0 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container .heading {
+    width: 100%;
+}
+
+.container .heading h3 {
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+}
+
+.container .result {
+    padding: 10px;
+}
+
+img.hoverShadow {
+    transition: 0.3s;
+}
+
+.hoverShadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 600px) {
+    .result {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 800px) {
+    .result {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .result {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
